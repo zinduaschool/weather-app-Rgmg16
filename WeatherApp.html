@@ -58,7 +58,7 @@
 
         function getWeatherData(location) {
             const apiKey = 'e271d6e1b910766254ec39bc7dcf2d1f';
-            const url = `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;
 
             document.querySelector('.loading').style.display = 'block';
             document.getElementById('get-weather-button').disabled = true;
